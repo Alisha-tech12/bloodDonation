@@ -1,0 +1,87 @@
+/* style.css - minimal UI */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+    color: #222;
+}
+
+header {
+    background: #b70000;
+    color: #fff;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+.section {
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.panel {
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    margin-bottom: 16px;
+}
+
+input,
+select,
+textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 420px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.btn {
+    background: #e53935;
+    color: #fff;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #e53935;
+    color: #e53935;
+    padding: 8px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 8px;
+    border: 1px solid #eee;
+    text-align: left;
+}
+
+.small-note {
+    font-size: 0.9rem;
+    color: #333;
+}
